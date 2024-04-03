@@ -1,0 +1,16 @@
+{{>header}}
+
+<div class="container-fluid p-0 bg-dark min-vh-100 d-flex flex-column justify-content-center align-items-center text-light" style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('images/weather.jpg') no-repeat center; background-size: cover;">
+        <div class="w-100 mb-auto">
+        {{>navbar}}
+        </div>
+        <div class="d-flex mb-auto col-5">
+            <input type="search" class="form-control p-2 rounded-0" placeholder="Search your city..."><button class="btn btn-primary rounded-0">Search</button>
+        </div>
+
+        <div style="height: 20rem;" class="col-6 mb-auto border border-2 border-light box">
+            <h3 class="text-center my-2">Tuesday, 02/04/2023</h3>
+        </div>
+</div>
+
+{{>footer}}
